@@ -54,10 +54,43 @@ table {
     width: 960px;
 }
 
+/* Clearfix */
+
+.group:before, .group:after {
+    content: "";
+    display: table;
+}
+
+.group {
+    clear: both;
+    *zoom: 1;
+}
+
+.group:after {
+    clear: both;
+}
+
 /* Home */
 
 .hero {
     padding: 22px 80px 66px 80px;
+}
+
+.logo {
+    border-top: 4px solid #648880;
+    padding: 40px 0 22px 0;
+    float: left;
+}
+
+/* Footer */
+
+.primary-footer {
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+
+.primary-footer small {
+    float: left;
 }
 
 /* Typography */
