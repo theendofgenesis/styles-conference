@@ -149,24 +149,47 @@ a {
 /* Home */
 
 .hero {
+    line-height: 44px;
     padding: 22px 80px 66px 80px;
+}
+
+.hero h3 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 24px;
 }
 
 .logo {
     border-top: 4px solid #648880;
     padding: 40px 0 22px 0;
     float: left;
+    font-size: 48px;
+    line-height: 44px;
+}
+
+.tagline {
+    margin: 66px 0 22px 0;
+}
+
+.primary-nav {
+    font-size: 14px;
+    font-weight: 400;
 }
 
 /* Footer */
 
 .primary-footer {
+    color: #648880;
+    font-size: 14px;
     padding-bottom: 44px;
     padding-top: 44px;
 }
 
 .primary-footer small {
     float: left;
+    font-weight: 400;
 }
 
 /* Typography */
